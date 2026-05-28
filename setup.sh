@@ -54,7 +54,7 @@ setup_together() {
 setup_venv() {
     echo "Setting up venv..."
 
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
 
     echo "Done setting up venv!"
@@ -76,10 +76,9 @@ check_python
 if [ $? -ne 0 ]; then
     return 1
 fi
-
+setup_venv
 setup_hf
 setup_together
-setup_venv
 install_requirements
 
 echo "All set up!"
