@@ -1,3 +1,9 @@
+Here is our final version with both runs for QWEN2 and QWEN3 added along with most of the things needed to run it, you will also need pytorch_2.3.1-cuda12.1-cudnn8-devel.sif
+aswell as a hugginface api token, the results can be found in pipeline/runs/completions
+
+
+
+
 # Refusal in Language Models Is Mediated by a Single Direction
 
 **Content warning**: This repository contains text that is offensive, harmful, or otherwise inappropriate in nature.
